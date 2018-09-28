@@ -1,0 +1,208 @@
+.logo {
+  margin-top: 50px; }
+
+.blocksHolder .blockHolder {
+  padding-left: 100px;
+  border: solid 1px #dfe8ea;
+  background-position: left 20px center;
+  background-repeat: no-repeat; }
+
+.columnHolder {
+  padding: 10px; }
+
+.blocksHolder2 .blockHolder2 {
+  padding-top: 50px;
+  border: solid 1px #dfe8ea;
+  background-position: left 20px top 20px;
+  background-repeat: no-repeat;
+  height: 100px;
+  border-radius: 5px; }
+
+.imageHolder {
+  padding-top: 50px;
+  background-position: left 35px top 20px;
+  background-repeat: no-repeat;
+  height: 100px; }
+
+.perYearColumn {
+  top: -30px;
+  right: 0px;
+  text-align: center; }
+
+.perMonthColumn::before {
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 70%;
+  background: #dfe8ea;
+  right: 25px;
+  top: -14px;
+  -webkit-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+  transform: rotate(8deg); }
+
+.perMonthColumn {
+  top: -30px;
+  left: 60px;
+  text-align: center; }
+
+.blocksHolder .blockHolder h3 {
+  font-size: 18px; }
+
+.blocksHolder .blockHolder p {
+  font-size: 14px; }
+
+.colll {
+  top: -50px; }
+
+.outerDiv {
+  border: solid 1px #dfe8ea;
+  padding: 30px;
+  margin: 50px;
+  background-color: white; }
+  .outerDiv .outerDivPtag {
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 25px; }
+
+.outerDivHeading {
+  font-family: Helvetica;
+  font-weight: 100;
+  max-width: 511px;
+  margin: auto;
+  padding: 20px;
+  font-size: 35px; }
+
+.buttonClass {
+  background-color: #aed0fc;
+  border-radius: 5px;
+  position: absolute;
+  right: 50px;
+  top: 40px;
+  color: blue;
+  font-size: 14px;
+  font-weight: 13px; }
+
+.textAlign {
+  text-align: right; }
+
+.planFontWeight {
+  font-size: 37px;
+  font-weight: 300; }
+
+.mainSection {
+  background-color: #f3f8f9; }
+
+.headingOfColum {
+  padding-top: 30px; }
+
+.pFontWeight {
+  font-weight: 100;
+  font-size: 12px;
+  color: #afb3ce; }
+
+.planDiv {
+  margin-bottom: 54px;
+  margin-top: 40px;
+  padding: 30px; }
+
+.upgradeDiv {
+  font-weight: 200;
+  margin-bottom: 34px; }
+
+.background {
+  background-color: #f6fafb; }
+
+.monthBoxDiv {
+  padding: 30px;
+  position: absolute;
+  right: 0;
+  height: 120px;
+  -webkit-box-shadow: 8px 8px 25px 2px #aaaaaa;
+  box-shadow: 8px 8px 25px 2px #aaaaaa;
+  width: 320px;
+  margin-right: 55px;
+  background-color: white;
+  text-align: right; }
+
+.yearBoxDiv {
+  text-align: left;
+  padding: 30px;
+  background-color: white;
+  height: 120px;
+  width: 320px;
+  -webkit-box-shadow: 8px 8px 25px 2px #aaaaaa;
+  box-shadow: 8px 8px 25px 2px #aaaaaa; }
+
+.heightOfPlanBox {
+  padding: 40px;
+  margin: 20px;
+  height: 440px;
+  text-align: center; }
+  .heightOfPlanBox .pTagMargin {
+    max-width: 373px;
+    margin: auto;
+    margin-bottom: 25px;
+    color: #afb3ce;
+    font-weight: 100;
+    font-size: 12px; }
+  .heightOfPlanBox .monthColBox::before {
+    content: 'OR';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    display: block;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+  .heightOfPlanBox .continueButton {
+    width: 270px;
+    height: 70px;
+    margin: 40px;
+    border-radius: 6px;
+    background-color: blue;
+    color: white;
+    font-weight: lighter; }
+
+.textAlign::before {
+  content: '';
+  position: absolute;
+  top: -33%;
+  display: block;
+  right: 0;
+  height: 120px;
+  width: 1px;
+  background: #dfe8ea;
+  -webkit-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+  transform: rotate(8deg); }
+
+.announcementsHeading {
+  position: absolute;
+  top: 110px;
+  left: 50px; }
+
+.optionsData {
+  padding: 15px;
+  margin-left: 30px;
+  margin-right: 20px;
+  top: -25px;
+  max-width: 352px !important; }
+
+.announcementsData {
+  padding: 15px;
+  margin-left: 30px;
+  margin-right: 20px;
+  top: -25px; }
+
+.announcementsBorder {
+  border: solid 2px blue !important; }
+
+.announcementRightIcon {
+  right: 30px;
+  position: absolute;
+  top: 220px; }
+
+.columnsData {
+  color: #858899;
+  font-size: 15px; }
